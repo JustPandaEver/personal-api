@@ -11,7 +11,7 @@ var twvid = require('./server/routers/twvid');
 var twimg = require('./server/routers/twimg');
 
 var app = express();
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 8000;
 
 app.use(morgan('dev'));
 app.use(express.static('client'));
